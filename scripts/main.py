@@ -1,3 +1,5 @@
+import pandas as pd
+
 def read_proccessed_data(csv_path):
     try:    
         db = pd.read_csv(csv_path)
